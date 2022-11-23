@@ -1,0 +1,26 @@
+<div>
+  <div class="container-1">
+    <h1>MODERN BIKES</h1>
+  </div>
+  
+  <div class="container-1">
+    <label for="bike">CHOOSE THE BIKE :</label>
+    <select #bikes>
+      <option value="NULL"></option>
+      <option value="R15">R15</option>
+      <option value="RX">RX-100</option>
+      <option value="RE">ROYAL ENFIELD</option>
+      <option value="HM">HIMALYAN</option>
+    </select>
+  </div>
+
+  <div class="submit">
+    <button class="button" (click)="showing(bikes.value)">SUBMIT</button>
+  </div>
+  
+  
+  <div class = "imagediv">
+    <img class ="image" src={{str}}>
+  </div>
+
+</div>

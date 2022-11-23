@@ -1,0 +1,46 @@
+.submit
+{
+  margin-top: 15px;
+  display: flex;
+  justify-content:center;
+  margin-bottom: 20px;
+}
+
+.container-1{
+  display: flex;
+  justify-content:center;
+}
+
+.imagediv{
+  width: 300px;
+  margin: auto;
+}
+
+img{
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.button{
+  background-color: rgb(10, 142, 223);
+  color: rgb(245, 245, 249);
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.15s,box-shadow .15s;
+  vertical-align: top;
+}
+.button-hover{
+  opacity: 0.5;
+  background-color: darkorchid;
+  
+}
